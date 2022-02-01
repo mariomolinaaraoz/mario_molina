@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/mario_molina/static/css/main.8f6d3212.css",
+    "main.js": "/mario_molina/static/js/main.b364ee02.js",
+    "static/media/ai.png": "/mario_molina/static/media/ai.aa60586ba1ba53762d94.png",
+    "static/media/possibility.png": "/mario_molina/static/media/possibility.525f13b61a2157d44de0.png",
+    "static/media/blog01.png": "/mario_molina/static/media/blog01.9a4bdd63db1ae9b87a0f.png",
+    "static/media/blog02.png": "/mario_molina/static/media/blog02.b12bb152a759890214fc.png",
+    "static/media/blog03.png": "/mario_molina/static/media/blog03.2ab12fdd1f92ca395612.png",
+    "static/media/blog05.png": "/mario_molina/static/media/blog05.b3eb2e8c0bf8a6df85aa.png",
+    "static/media/blog04.png": "/mario_molina/static/media/blog04.5e3a16d9ea63c4bb9f65.png",
+    "static/media/hero-img.png": "/mario_molina/static/media/hero-img.66b9eb77caa3ac6d4fe8.png",
+    "static/media/errorpage.jpg": "/mario_molina/static/media/errorpage.bcc12885e32eace9bbad.jpg",
+    "static/media/people.png": "/mario_molina/static/media/people.5cd2d6fbcd48bd63f106.png",
+    "static/media/logo.svg": "/mario_molina/static/media/logo.b7bbe5a686c1e3d0ff3c5943dd0552c2.svg",
+    "static/media/miner_icon.svg": "/mario_molina/static/media/miner_icon.f3f08471249af4224e33f23b3282674a.svg",
+    "static/media/binancecoin_icon.svg": "/mario_molina/static/media/binancecoin_icon.de93f12ce14bedd27fb9a44b20eee12f.svg",
+    "index.html": "/mario_molina/index.html",
+    "main.8f6d3212.css.map": "/mario_molina/static/css/main.8f6d3212.css.map",
+    "main.b364ee02.js.map": "/mario_molina/static/js/main.b364ee02.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f6d3212.css",
+    "static/js/main.b364ee02.js"
+  ]
+}
