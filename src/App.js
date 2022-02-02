@@ -10,7 +10,7 @@ function App() {
     return <Router>
         <Navbar />        
         <Routes>
-            <Route exact path='/mario_molina/' element={<Home />}/>
+            <Route exact path='https://mariomolinaaraoz.github.io/mario_molina/' element={<Home />}/>
             <Route exact path="/mario_molina/mining" element={<Mineria />}/>
             <Route exact path="/mario_molina/family" element={<Familia />}/>
             <Route path="*" element={<ErrorPage />}/>
