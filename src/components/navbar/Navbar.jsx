@@ -16,16 +16,16 @@ const handleClick = () => setClick(!click)
                 <img src={logo} alt="logo" />
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li>
-                        <a href="/mario_molina/">Inicio</a>
+                        <a href="https://mariomolinaaraoz.github.io/mario_molina/">Inicio</a>
                     </li>
                     <li>
-                        <a href="/mario_molina/mining">Mineria</a>
+                        <a href="https://mariomolinaaraoz.github.io/mario_molina/mining">Mineria</a>
                     </li>
                     <li>
-                        <a href="/mario_molina/family">Familia</a>
+                        <a href="https://mariomolinaaraoz.github.io/mario_molina/family">Familia</a>
                     </li>
                     <li>
-                        <a href='/mario_molina'>Contact</a>
+                        <a href='https://mariomolinaaraoz.github.io/mario_molina/'>Contact</a>
                     </li>
                 </ul>            
                 <div className='btn-group'>
