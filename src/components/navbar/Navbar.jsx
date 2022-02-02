@@ -16,7 +16,7 @@ const handleClick = () => setClick(!click)
                 <img src={logo} alt="logo" />
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li>
-                        <a href="/mario_molina">Inicio</a>
+                        <a href="/mario_molina/">Inicio</a>
                     </li>
                     <li>
                         <a href="/mario_molina/mining">Mineria</a>
