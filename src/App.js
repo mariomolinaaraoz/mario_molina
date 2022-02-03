@@ -10,7 +10,7 @@ export default function App() {
         <BrowserRouter>        
             <Navbar/>
             <Routes>
-                <Route path='/mario_molina' element={<Home />}/>
+                <Route path='/mario_molina/' element={<Home />}/>
                 <Route path="/mario_molina/mining" element={<Mineria />}/>
                 <Route path="/mario_molina/family" element={<Familia />}/>
                 <Route path="*" element={<ErrorPage />}/>
