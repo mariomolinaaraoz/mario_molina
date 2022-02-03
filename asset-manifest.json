@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mario_molina/static/css/main.8f6d3212.css",
-    "main.js": "/mario_molina/static/js/main.6c22af48.js",
+    "main.css": "/mario_molina/static/css/main.059863dc.css",
+    "main.js": "/mario_molina/static/js/main.555b326e.js",
     "static/media/ai.png": "/mario_molina/static/media/ai.aa60586ba1ba53762d94.png",
     "static/media/possibility.png": "/mario_molina/static/media/possibility.525f13b61a2157d44de0.png",
     "static/media/blog01.png": "/mario_molina/static/media/blog01.9a4bdd63db1ae9b87a0f.png",
@@ -16,11 +16,11 @@
     "static/media/miner_icon.svg": "/mario_molina/static/media/miner_icon.f3f08471249af4224e33f23b3282674a.svg",
     "static/media/binancecoin_icon.svg": "/mario_molina/static/media/binancecoin_icon.de93f12ce14bedd27fb9a44b20eee12f.svg",
     "index.html": "/mario_molina/index.html",
-    "main.8f6d3212.css.map": "/mario_molina/static/css/main.8f6d3212.css.map",
-    "main.6c22af48.js.map": "/mario_molina/static/js/main.6c22af48.js.map"
+    "main.059863dc.css.map": "/mario_molina/static/css/main.059863dc.css.map",
+    "main.555b326e.js.map": "/mario_molina/static/js/main.555b326e.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f6d3212.css",
-    "static/js/main.6c22af48.js"
+    "static/css/main.059863dc.css",
+    "static/js/main.555b326e.js"
   ]
 }
