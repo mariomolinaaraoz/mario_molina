@@ -10,9 +10,9 @@ export default function App() {
         <BrowserRouter>        
             <Navbar/>
             <Routes>
-                <Route path='http://mariomolinaaraoz.github.io/mario_molina/' element={<Home />}/>
-                <Route path="http://mariomolinaaraoz.github.io/mario_molina/mining" element={<Mineria />}/>
-                <Route path="http://mariomolinaaraoz.github.io/mario_molina/family" element={<Familia />}/>
+                <Route path='/mario_molina/' element={<Home />}/>
+                <Route path="/mario_molina/mining" element={<Mineria />}/>
+                <Route path="/mario_molina/family" element={<Familia />}/>
                 <Route path="*" element={<ErrorPage />}/>
             </Routes>
             <Footer/>
