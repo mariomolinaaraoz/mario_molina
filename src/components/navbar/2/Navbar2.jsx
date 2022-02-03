@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import {FaBars, FaTimes} from 'react-icons/fa'
 import logo from '../../assets/logo.svg';
 
@@ -9,32 +9,33 @@ const Navbar = () => {
 const [click, setClick] = useState(false)
 const handleClick = () => setClick(!click)
 
-
     return (
         <div className='header'>
             <div className='header_items'>
                 <img src={logo} alt="logo" />
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li>
-                        <a href="https://mariomolinaaraoz.github.io/mario_molina/">Inicio</a>
+                        <NavLink
+                            classname={({ isActive }) => (isActive ? "nav-menu.active" : "nav-menu")}
+                            to="/">Inicio</NavLink>
                     </li>
                     <li>
-                        <a href="https://mariomolinaaraoz.github.io/mario_molina/mining">Mineria</a>
+                        <NavLink to="/mining">Mineria</NavLink>
                     </li>
                     <li>
-                        <a href="https://mariomolinaaraoz.github.io/mario_molina/family">Familia</a>
+                        <NavLink to="/family">Familia</NavLink>
                     </li>
                     <li>
-                        <a href='https://mariomolinaaraoz.github.io/mario_molina/'>Contact</a>
+                        <NavLink to="/">Contact</NavLink>
                     </li>
-                </ul>            
+                </ul>
                 <div className='btn-group'>
                     <button className='btn'>Connect Wallet</button>
                 </div>
             </div>
             <div className='container'>
                 <div className='hamburger' onClick={handleClick}>
-                    {click ? (<FaTimes size={28} style={{color: '#fff'}}/>) : (<FaBars size={28} style={{color: '#fff'}} />)}                    
+                    {click ? (<FaTimes size={28} style={{color: '#fff'}}/>) : (<FaBars size={28} style={{color: '#fff'}} />)}
                 </div>
             </div>
         </div>

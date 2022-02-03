@@ -1,0 +1,160 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    border-bottom: 1px solid #eee;
+    padding: 1rem 6rem;   
+}
+
+.header_items {
+    flex:1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header_items img{        
+    width: 80px;
+    height: 80px;
+}
+
+.header .header_items .btn-group {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 2rem;    
+}
+
+.colors {
+    color: var(--primary);
+}
+
+.nav-menu {
+    display: flex;
+}
+
+.nav-menu li {
+    padding: 0 2rem;
+}
+
+.nav-menu a {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1050px) {
+
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-menu {
+        position: absolute;
+        flex-direction: column;
+        justify-content: start;
+        top: 90px;
+        right: 0%;
+        width: 0%;
+        height: 100vh;
+        transition: 0.4s;
+        z-index: 2;
+        background: #333;
+        border-left: 1px solid #eee;
+    }
+
+    .nav-menu.active {
+        width: 40%;
+    }
+
+    .nav-menu li {
+        padding: 1rem;
+        width: 100%;
+        border-bottom: 1px solid #eee;
+    }
+
+    .nav-menu a {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .header {
+        padding: 2rem 4rem;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-menu {
+        position: absolute;
+        flex-direction: column;
+        justify-content: start;
+        top: 90px;
+        right: 0%;
+        width: 0%;
+        height: 100vh;
+        transition: 0.4s;
+        z-index: 2;
+        background: #333;
+        border-left: 1px solid #eee;
+    }
+
+    .nav-menu.active {
+        width: 0%;
+    }
+
+    .nav-menu li {
+        padding: 1rem;
+        width: 100%;
+        border-bottom: 1px solid #eee;
+    }
+
+    .nav-menu a {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .header {
+        padding: 2rem;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-menu {
+        position: absolute;
+        flex-direction: column;
+        justify-content: start;
+        top: 90px;
+        right: -100%;
+        width: 40%;
+        height: 100vh;
+        transition: 0.4s;
+        z-index: 2;
+        background: #333;
+        border-left: 1px solid #eee;
+    }
+
+    .nav-menu.active {
+        right: 0;
+    }
+
+    .nav-menu li {
+        padding: 1rem;
+        width: 100%;
+        border-bottom: 1px solid #eee;
+    }
+
+    .nav-menu a {
+        font-size: 1rem;
+    }
+}
