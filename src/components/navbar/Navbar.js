@@ -25,22 +25,22 @@ const Navbar = () => {
 			</div>
 			<ul className={open ? 'nav-links active' : 'nav-links'}>
 				<li className="nav-item">
-					<Link to="/" className="nav-link" onClick={closeMenu}>
+					<Link to="http://mariomolinaaraoz.github.io/mario_molina/" className="nav-link" onClick={closeMenu}>
 						Inicio
 					</Link>
 				</li>
 				<li className="nav-item">
-					<Link to="/mining" className="nav-link" onClick={closeMenu}>
+					<Link to="http://mariomolinaaraoz.github.io/mario_molina/mining" className="nav-link" onClick={closeMenu}>
 						Mineria
 					</Link>
 				</li>
 				<li className="nav-item">
-					<Link to="/family" className="nav-link" onClick={closeMenu}>
+					<Link to="http://mariomolinaaraoz.github.io/mario_molina/family" className="nav-link" onClick={closeMenu}>
 						Familia
 					</Link>
 				</li>
 				<li className="nav-item">
-					<Link to="/contact" className="nav-link" onClick={closeMenu}>
+					<Link to="http://mariomolinaaraoz.github.io/mario_molina/contact" className="nav-link" onClick={closeMenu}>
 						Contact
 					</Link>
 				</li>
