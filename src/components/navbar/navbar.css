@@ -6,8 +6,8 @@
 	justify-content: space-between;
 	align-items: center;
 	padding: 2rem 4rem;
-	font-size: 1.2rem;
-	border-bottom: 1px solid #eee;
+	font-size: 1.1rem;
+	border-bottom: .5px solid #eee;
 }
 
 .nav-logo img{        
@@ -16,22 +16,21 @@
 }
 
 .nav-links {
-	flex:1;
-  	display: flex;
-  	justify-content: flex-end;
-  	align-items: center;	
+	display: grid;
+	grid-template-columns: repeat(4, auto);	
+	list-style: none;	
 }
 
 .nav-link {	
     align-items: center;
-    padding: 0 1rem; 
+    padding: .5rem 2rem; 
 	text-decoration: none;
 	color: white;
 	transition: 0.3s all;
 }
 
 .nav-link:hover {
-	padding: 0 1rem;
+	padding: .5rem 2rem;
 	background-color: #fff;
   	border-radius: 2px;
   	color: #000;
@@ -51,25 +50,25 @@
 	}
 
 	.nav-links {
-		display: flex;
+		display: none;		
+	}
+
+	.nav-item {	
+		padding: 1rem 1rem;
+		border-bottom: 0.05px solid rgb(126, 126, 126);
+	}
+
+	.nav-links.active {				
+		background: rgb(30, 30, 30);
 		flex-direction: column;
 		position: absolute;
 		text-align: center;
-		width: 40%;
+		width: 10rem;
 		top: 80px;
-		right: -40%;
-		transition: 0.5s all;
-	}
-
-	.nav-links.active {			
-		background: rgb(50, 50, 50);
 		right: 0;
-	}
-
-	.nav-item {
-		padding: 0.5rem 1rem;		
-		border-bottom: 1px solid white;
-	}
+		transition: 0.5s all;
+		display: flex;
+	}	
 
 	.nav-icon {
 		display: flex;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './mining_hero.css'
+import './mininghero.css'
 
 import Crypto from '../../assets/hero-img.png'
 

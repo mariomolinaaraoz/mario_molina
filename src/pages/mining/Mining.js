@@ -1,11 +1,11 @@
 import React from 'react'
-import { Mining_Featured, Mining_Hero } from './components';
+import { MiningFeatured, MiningHero } from './components';
 
 function Mineria() {
   return (
     <>
-      <Mining_Hero />
-      <Mining_Featured />
+      <MiningHero />
+      <MiningFeatured />
     </>
   );
 }

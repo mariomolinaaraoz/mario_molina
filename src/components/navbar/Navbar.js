@@ -11,14 +11,14 @@ const Navbar = () => {
 		setOpen(!open);
 	};
 
-	const closeMenu = () => {
-		setOpen(false);
+	const closeMenu = () => {		
+		setOpen(false);		
 	};
 
 	return (
 		<nav className="navbar">
 			<Link to="/mario_molina/" className="nav-logo">
-        <img src={logo} alt="logo" />
+        		<img src={logo} alt="logo" />
 			</Link>
 			<div onClick={handleClick} className="nav-icon">
 				{open ? <FiX /> : <FiMenu />}

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 // import BTC from '../assets/btc-img.png'
 import { FiArrowUpRight, FiArrowDown } from 'react-icons/fi'
-import './mining_featured.css'
+import './miningfeatured.css'
 
 const Featured = () => {
 
