@@ -37,6 +37,10 @@
     cursor: pointer;
   }
 
+  .btn1:hover {
+    box-shadow: rgb(0 0 0 / 15%) 0px 8px 24px;
+  }
+
 .hero .right {
     padding: 1rem;
 }

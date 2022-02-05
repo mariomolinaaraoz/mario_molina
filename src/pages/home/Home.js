@@ -14,8 +14,7 @@ const Home = () => (
     <WhatGPT3 />
     <Features />
     <Possibility />
-    <CTA />
-    <Blog />    
+    <CTA />    
   </div>
 );
 

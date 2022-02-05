@@ -12,7 +12,7 @@
   --color-text: #81AFDD;
   --color-subtext: #FF8A71;
 
-  --primary: #118c4f;
+  --primary: #042c54;
   --background: #f5f8ff;  
 }
 
@@ -75,8 +75,8 @@ p {
 
 .btn {
   padding: 8px 20px;
-  border: 1px solid var(--primary);
-  background-color: var(--primary);
+  border: 1px solid #FF4820;
+  background-color: #FF4820;
   color: #fff;
   border-radius: 20px 4px;
   font-size: 1rem;
