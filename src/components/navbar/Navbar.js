@@ -26,7 +26,7 @@ const Navbar = () => {
 			<ul className={open ? 'nav-links active' : 'nav-links'}>
 				<li className="nav-item">
 					<Link to="/mario_molina/" className="nav-link" onClick={closeMenu}>
-						Inicio
+					Inicio
 					</Link>
 				</li>
 				<li className="nav-item">

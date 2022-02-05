@@ -27,9 +27,9 @@ const Featured = () => {
             <div className='container'>
                 {/* Left */}
                 <div className='left'>
-                    <h2>Explore top Crypto's Like Bitcoin, Ethereum, and Dogecoin</h2>
-                    <p>See all available assets: Cryptocurrencies and NFT's</p>
-                    <button className='btn'>See More Coins</button>
+                    <h2>Consulta la cotizacion de tus cryptomonedas</h2>
+                    <p>Observa las tendencias de los mercados de cryptos y NFTs</p>
+                    <button className='btn'>Ver todas las monedas</button>
                 </div>
 
                 {/* Right */}

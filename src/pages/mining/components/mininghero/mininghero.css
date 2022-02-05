@@ -1,7 +1,6 @@
 .hero .container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin: 4rem auto;
+    grid-template-columns: repeat(2, 1fr);    
     justify-content: center;
     align-items: center;
     padding: 1rem;
@@ -17,19 +16,17 @@
 }
 
 .hero .input-container {
-    padding: 1rem 0;
+    padding: 1rem 0rem;
 }
 
-.hero .input-accesos {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    padding: 1rem 0;    
+.hero .input-accesos {    
+    flex-direction: row;    
 }
 
 .btn1 { 
     padding: 8px 20px;
     margin-right: 1rem;
+    margin-bottom: 1rem;
     align-items: center;
     border: 1px solid var(--primary);
     background-color: var(--primary);
@@ -56,7 +53,10 @@
 
 @media screen and (max-width: 940px) {
     .hero .container {
-        grid-template-columns: 1fr;
-        margin: 1rem 0;
+        grid-template-columns: 1fr;        
+    }
+
+.btn1 { 
+        width: 80%;
     }
 }
