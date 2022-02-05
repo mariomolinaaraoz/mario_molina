@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/mario_molina/static/css/main.b3b7dae7.css",
-    "main.js": "/mario_molina/static/js/main.cda14945.js",
-    "static/media/ai.png": "/mario_molina/static/media/ai.aa60586ba1ba53762d94.png",
+    "main.css": "/mario_molina/static/css/main.e947cd29.css",
+    "main.js": "/mario_molina/static/js/main.1814b8bf.js",
     "static/media/possibility.png": "/mario_molina/static/media/possibility.525f13b61a2157d44de0.png",
     "static/media/blog01.png": "/mario_molina/static/media/blog01.9a4bdd63db1ae9b87a0f.png",
     "static/media/blog02.png": "/mario_molina/static/media/blog02.b12bb152a759890214fc.png",
     "static/media/blog03.png": "/mario_molina/static/media/blog03.2ab12fdd1f92ca395612.png",
+    "static/media/hero-img.png": "/mario_molina/static/media/hero-img.1800fb5af5192c89b246.png",
     "static/media/blog05.png": "/mario_molina/static/media/blog05.b3eb2e8c0bf8a6df85aa.png",
     "static/media/blog04.png": "/mario_molina/static/media/blog04.5e3a16d9ea63c4bb9f65.png",
-    "static/media/hero-img.png": "/mario_molina/static/media/hero-img.66b9eb77caa3ac6d4fe8.png",
     "static/media/errorpage.jpg": "/mario_molina/static/media/errorpage.bcc12885e32eace9bbad.jpg",
     "static/media/people.png": "/mario_molina/static/media/people.5cd2d6fbcd48bd63f106.png",
+    "static/media/logo-black.svg": "/mario_molina/static/media/logo-black.e0d0745f2f4d364d576371d51aa75386.svg",
     "static/media/logo.svg": "/mario_molina/static/media/logo.b7bbe5a686c1e3d0ff3c5943dd0552c2.svg",
     "static/media/rvn.svg": "/mario_molina/static/media/rvn.f2633797cc2356851066f6530d73baf5.svg",
     "static/media/usdt.svg": "/mario_molina/static/media/usdt.b8dd2f5486d3e522c5e932a250a28998.svg",
@@ -20,11 +20,11 @@
     "static/media/dash.svg": "/mario_molina/static/media/dash.96b2c944a9626ae9163337667ab443df.svg",
     "static/media/sol.svg": "/mario_molina/static/media/sol.f3ebedaeb41b99f2f4c85a221b8335fc.svg",
     "index.html": "/mario_molina/index.html",
-    "main.b3b7dae7.css.map": "/mario_molina/static/css/main.b3b7dae7.css.map",
-    "main.cda14945.js.map": "/mario_molina/static/js/main.cda14945.js.map"
+    "main.e947cd29.css.map": "/mario_molina/static/css/main.e947cd29.css.map",
+    "main.1814b8bf.js.map": "/mario_molina/static/js/main.1814b8bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3b7dae7.css",
-    "static/js/main.cda14945.js"
+    "static/css/main.e947cd29.css",
+    "static/js/main.1814b8bf.js"
   ]
 }
