@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Blog, Possibility, Features, WhatGPT3, Header } from '../../containers';
+import { Possibility, Features, WhatGPT3, Header } from '../../containers';
 import { CTA, Brand } from '../../components';
 
 import './home.css';

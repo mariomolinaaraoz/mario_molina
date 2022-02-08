@@ -1,6 +1,7 @@
 .hero .container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);    
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
     justify-content: center;
     align-items: center;
     padding: 1rem;
@@ -42,16 +43,18 @@
   }
 
 .hero .right {
-    padding: 1rem;
+    padding: 1rem;    
 }
 
-.hero .img-container {
-    width: 100%;
+.hero .img-container img {        
     display: flex;
+    width: 100%;
+    height: auto;
+    margin: auto;
 }
 
-.hero img {
-    max-width: 80%;
+.hero .input-accesos img {
+    max-width:80%;
     margin: auto;
 }
 

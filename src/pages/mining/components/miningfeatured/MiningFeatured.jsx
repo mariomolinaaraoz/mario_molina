@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
-// import BTC from '../assets/btc-img.png'
+import { Link } from 'react-router-dom';
 import { FiArrowUpRight, FiArrowDown } from 'react-icons/fi'
 import './miningfeatured.css'
 
@@ -29,7 +29,7 @@ const Featured = () => {
                 <div className='left'>
                     <h2>Consulta la cotizacion de tus cryptomonedas</h2>
                     <p>Observa las tendencias de los mercados de cryptos y NFTs</p>
-                    <button className='btn'>Ver todas las monedas</button>
+                    <button className='btn'><Link to="/mario_molina/mining/coinsearch" >Ver todas las monedas</Link></button>
                 </div>
 
                 {/* Right */}
