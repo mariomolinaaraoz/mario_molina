@@ -1,6 +1,10 @@
 {
   "short_name": "Mario Molina",
   "name": "Mario Molina - Sitio Personal",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#4c4c4c",
   "icons": [
     {
       "src": "favicon.ico",
@@ -17,9 +21,5 @@
       "type": "image/png",
       "sizes": "453x287"
     }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#4c4c4c"
+  ]   
 }
