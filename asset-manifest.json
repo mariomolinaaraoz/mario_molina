@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mario_molina/static/css/main.86c46897.css",
-    "main.js": "/mario_molina/static/js/main.c61194ba.js",
+    "main.css": "/mario_molina/static/css/main.169695be.css",
+    "main.js": "/mario_molina/static/js/main.0ef96531.js",
     "static/media/possibility.png": "/mario_molina/static/media/possibility.525f13b61a2157d44de0.png",
     "static/media/blog01.png": "/mario_molina/static/media/blog01.9a4bdd63db1ae9b87a0f.png",
     "static/media/blog02.png": "/mario_molina/static/media/blog02.b12bb152a759890214fc.png",
@@ -24,11 +24,11 @@
     "static/media/dash.svg": "/mario_molina/static/media/dash.96b2c944a9626ae9163337667ab443df.svg",
     "static/media/sol.svg": "/mario_molina/static/media/sol.f3ebedaeb41b99f2f4c85a221b8335fc.svg",
     "index.html": "/mario_molina/index.html",
-    "main.86c46897.css.map": "/mario_molina/static/css/main.86c46897.css.map",
-    "main.c61194ba.js.map": "/mario_molina/static/js/main.c61194ba.js.map"
+    "main.169695be.css.map": "/mario_molina/static/css/main.169695be.css.map",
+    "main.0ef96531.js.map": "/mario_molina/static/js/main.0ef96531.js.map"
   },
   "entrypoints": [
-    "static/css/main.86c46897.css",
-    "static/js/main.c61194ba.js"
+    "static/css/main.169695be.css",
+    "static/js/main.0ef96531.js"
   ]
 }
