@@ -13,9 +13,9 @@ const WhatGPT3 = () => {
                 <p>Mas detalles en CV</p>
             </div>
             <div className="gpt3__whatgpt3-container">
-                <Feature title="Sermico s.r.l." text=" Asegurar el correcto abastecimiento a los clientes internos y externos. Realizar, seguimientos de ordenes de solicitudes, ordenes de compra. Planificar las obras, entrega de proveedores externos e internos. Volcado de planificación al sistema Gestion." />
-                <Feature title="Consultora y Desarrollo s.r.l." text=" Coordinar con los referentes de las distintas áreas, la maquetación del proyecto. Ensamblar en un único proyecto todos los planos, vistas, escenas, etc para llegar al renderizado final. Crear carpetas de pliegos para los diferentes proveedores, coordinación y planificación con los ganadores." />
-                <Feature title="Río Azul Ingeniería s.r.l." text="Generación de planos para fabricación de naves industriales. Generación de listados de materiales, aprovechando los existentes y los listados de compras. Armado de la planificación de fabricación, montaje, con proveedores internos y externos. Generación de planos de montaje, municipales para aprobación y planos para proveedores." />
+                <Feature title="Sermico s.r.l. - 03/18 - 10/21" text="Asegurar el correcto abastecimiento a los clientes internos y externos. Realizar, seguimientos de ordenes de solicitudes, ordenes de compra. Planificar las obras, entrega de proveedores externos e internos. Volcado de planificación al sistema Gestion." />
+                <Feature title="Consultora y Desarrollo s.r.l. - 05/16 - 02/18" text="Coordinar con los referentes de las distintas áreas, la maquetación del proyecto. Ensamblar en un único proyecto todos los planos, vistas, escenas, etc para llegar al renderizado final. Crear carpetas de pliegos para los diferentes proveedores, coordinación y planificación con los ganadores." />
+                <Feature title="Río Azul Ingeniería s.r.l. - 01/05 - 03/16" text="Generación de planos para fabricación de naves industriales. Generación de listados de materiales, aprovechando los existentes y los listados de compras. Armado de la planificación de fabricación, montaje, con proveedores internos y externos. Generación de planos de montaje, municipales para aprobación y planos para proveedores." />
             </div>
         </div>
     )
