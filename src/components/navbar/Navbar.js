@@ -40,8 +40,8 @@ const Navbar = () => {
 					</Link>
 				</li>
 				<li className="nav-item">
-					<Link to="/mario_molina/contact" className="nav-link" onClick={closeMenu}>
-						Contact
+					<Link to="/mario_molina/" className="nav-link" onClick={closeMenu}>
+						Contacto
 					</Link>
 				</li>
 			</ul>

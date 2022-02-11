@@ -10,11 +10,9 @@ const Home = () => (
     <div className="gradient__bg">      
       <Header />
     </div>
-    <Brand />
+    <Brand/>
     <WhatGPT3 />
-    <Features />
-    <Possibility />
-    <CTA />    
+        
   </div>
 );
 
