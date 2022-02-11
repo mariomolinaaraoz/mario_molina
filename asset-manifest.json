@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/mario_molina/static/css/main.8b1334f2.css",
-    "main.js": "/mario_molina/static/js/main.5bb8d6f7.js",
+    "main.css": "/mario_molina/static/css/main.d7aa127d.css",
+    "main.js": "/mario_molina/static/js/main.d5c88cbd.js",
     "static/media/possibility.png": "/mario_molina/static/media/possibility.525f13b61a2157d44de0.png",
     "static/media/blog01.png": "/mario_molina/static/media/blog01.9a4bdd63db1ae9b87a0f.png",
     "static/media/blog02.png": "/mario_molina/static/media/blog02.b12bb152a759890214fc.png",
+    "static/media/CV - Mario Molina Autocad - Revit.pdf": "/mario_molina/static/media/CV - Mario Molina Autocad - Revit.950a1bdf2390c3c4edef.pdf",
     "static/media/blog03.png": "/mario_molina/static/media/blog03.2ab12fdd1f92ca395612.png",
     "static/media/hero-img.png": "/mario_molina/static/media/hero-img.1800fb5af5192c89b246.png",
     "static/media/blog05.png": "/mario_molina/static/media/blog05.b3eb2e8c0bf8a6df85aa.png",
     "static/media/blog04.png": "/mario_molina/static/media/blog04.5e3a16d9ea63c4bb9f65.png",
+    "static/media/autocad.png": "/mario_molina/static/media/autocad.410dd7183d37c7800bde.png",
+    "static/media/revit.png": "/mario_molina/static/media/revit.a77038e5897af198a3ab.png",
     "static/media/errorpage.jpg": "/mario_molina/static/media/errorpage.bcc12885e32eace9bbad.jpg",
-    "static/media/people.png": "/mario_molina/static/media/people.5cd2d6fbcd48bd63f106.png",
+    "static/media/lumion.png": "/mario_molina/static/media/lumion.3001b4d9ee411a6391fd.png",
     "static/media/logo-black.svg": "/mario_molina/static/media/logo-black.e0d0745f2f4d364d576371d51aa75386.svg",
     "static/media/logo.svg": "/mario_molina/static/media/logo.b7bbe5a686c1e3d0ff3c5943dd0552c2.svg",
     "static/media/rvn.svg": "/mario_molina/static/media/rvn.f2633797cc2356851066f6530d73baf5.svg",
@@ -20,11 +23,11 @@
     "static/media/dash.svg": "/mario_molina/static/media/dash.96b2c944a9626ae9163337667ab443df.svg",
     "static/media/sol.svg": "/mario_molina/static/media/sol.f3ebedaeb41b99f2f4c85a221b8335fc.svg",
     "index.html": "/mario_molina/index.html",
-    "main.8b1334f2.css.map": "/mario_molina/static/css/main.8b1334f2.css.map",
-    "main.5bb8d6f7.js.map": "/mario_molina/static/js/main.5bb8d6f7.js.map"
+    "main.d7aa127d.css.map": "/mario_molina/static/css/main.d7aa127d.css.map",
+    "main.d5c88cbd.js.map": "/mario_molina/static/js/main.d5c88cbd.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b1334f2.css",
-    "static/js/main.5bb8d6f7.js"
+    "static/css/main.d7aa127d.css",
+    "static/js/main.d5c88cbd.js"
   ]
 }
