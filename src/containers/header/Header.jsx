@@ -18,7 +18,7 @@ const Header = () => {
     const [email, setEmail] = useState("");    
 
     const [loader, setLoader] = useState(false);
-    const usersCollectionRef = collection(db, "datausers");
+    const usersCollectionRef = collection(db, "contacto_download_cv");
 
     const createUser = async () => {
       await addDoc(usersCollectionRef, { name: name, company: company, email: email }); 
@@ -31,7 +31,7 @@ const Header = () => {
         createUser()
           .then(() => {
             setLoader(false);
-            alert("Your message has been submitted👍");
+            alert("Muchas gracias por el contacto. :) 👍");
           })
           .catch((error) => {
             alert(error.message);
