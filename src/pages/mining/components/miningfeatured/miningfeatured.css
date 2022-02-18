@@ -1,8 +1,10 @@
 .featured {
     width: 100%;
-    padding: 8rem 0;
-    background-color: var(--background);
-    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 90%);
+    padding: 4rem 0;
+    background-color: whitesmoke;
+    clip-path: polygon(0 0, 100% 7%, 100% 100%, 0% 95%);
+    font-family: var(--font-family);    
+    margin-top: -2rem;
 }
 
 .featured .container {
@@ -13,6 +15,7 @@
     padding: 1rem;
 }
 
+/*GRID LEFT */
 .featured .left {
     display: flex;
     flex-direction: column;
@@ -20,14 +23,44 @@
     padding-bottom: 2rem;
 }
 
-.featured .left p {
-    margin: 1.5rem 0;
+.featured .left h2 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+    margin: 1rem 0;
+    color: var(--color-footer);
+}
+
+.featured .left p {    
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--color-footer);
 }
 
 .featured .left .btn {
-    align-self: flex-start;
+    flex: 0.6;
+    width: 40%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    background: #FF4820;
+    border: 2px solid #FF4820;
+    padding: 0 1rem;
+    color: #fff;
+    cursor: pointer;
+    outline: none;    
+
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;    
+    margin-top: 1rem;
 }
 
+/*GRID RIGHT */
 .featured .right {
     display: flex;
     flex-wrap: wrap;
@@ -45,6 +78,7 @@
     border: 1px solid #d3d3d3;
     box-shadow: rgb(0 0 0 / 12%) 0px 8px 24px;
     text-align: center;
+    color: var(--color-footer);
 }
 
 .featured .right .card:hover {
@@ -82,7 +116,7 @@
     color: #ff0000;
 }
 
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 1050px) {
     .featured .container {
         grid-template-columns: 1fr;
     }
@@ -92,9 +126,33 @@
     }
 }
 
+@media screen and (max-width: 650px) {
+    .featured .left h2 {
+        font-size: 48px;
+        line-height: 60px;
+    }
 
-@media screen and (max-width: 478px) {
+    .featured .left .btn {
+        font-size: 16px;
+        line-height: 24px;
+        width: 60%;
+    }
+}
+
+
+@media screen and (max-width: 490px) {
     .featured .container .right .card {
         width: 100%;
+    }
+
+    .featured .left h2 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .featured .left .btn {
+        font-size: 12px;
+        line-height: 16px;
+        width: 80%;
     }
 }

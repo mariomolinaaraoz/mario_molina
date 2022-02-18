@@ -38,7 +38,7 @@ const Navbar = () => {
 					<Link to="/mario_molina/family" className="nav-link" onClick={closeMenu}>
 						Familia
 					</Link>
-				</li>				
+				</li>
 				<li className="nav-item">
 					<Link to="/mario_molina/" className="nav-link" onClick={closeMenu}>
 						Contacto

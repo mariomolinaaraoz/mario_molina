@@ -1,69 +1,194 @@
-.hero .container {
+.gpt3__mining {
+    display: flex;
+    flex-direction: row;
+}
+
+/*GRID LEFT AND RIGHT */
+.gpt3__mining-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 80%;
+    justify-content: space-between;
+    align-items:center;
+    padding: 1rem;
+}
+
+/*GRID LEFT */
+.gpt3__mining-content .left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
-    background: whitesmoke;
+    padding: 0 1rem;
 }
 
-.hero .left {
-    padding: 1rem;
+.gpt3__mining-content .left h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+    margin-bottom: 0.5rem;
 }
 
-.hero h1 {
-    padding: 1rem 0;
+.gpt3__mining-content p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: var(--color-text);
+
+    margin-top: 1rem;
 }
 
-.hero .input-container {
-    padding: 1rem 0rem;
-}
-
-.hero .input-accesos {    
-    flex-direction: row;    
-}
-
-.btn1 { 
-    padding: 8px 20px;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
-    align-items: center;
-    border: 1px solid var(--primary);
-    background-color: var(--primary);
-    color: #fff;
-    border-radius: 20px 4px ;
-    font-size: 1rem;
-    font-weight: 600;
-    cursor: pointer;
-  }
-
-  .btn1:hover {
-    box-shadow: rgb(0 0 0 / 15%) 0px 8px 24px;
-  }
-
-.hero .right {
-    padding: 1rem;    
-}
-
-.hero .img-container img {        
-    display: flex;
+/*GRID LEFT INPUT AND BUTTON*/
+.gpt3__mining-content .left .input-container{    
     width: 100%;
-    height: auto;
-    margin: auto;
+    margin: 1rem 0 ;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    align-items:center;    
 }
 
-.hero .input-accesos img {
-    max-width:80%;
-    margin: auto;
+.gpt3__mining-content input {
+    flex: 2;
+    width: 90%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    background: var(--color-footer);
+    border: 2px solid var(--color-footer);
+    padding: 0 1rem;
+    outline: none;
+    color: #fff;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;  
+    margin-top: 1rem;
 }
 
-@media screen and (max-width: 940px) {
-    .hero .container {
-        grid-template-columns: 1fr;        
+.gpt3__mining-content .left .input-container button {
+    flex: 0.6;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    background: #FF4820;
+    border: 2px solid #FF4820;
+    padding: 0 1rem;
+    color: #fff;
+    cursor: pointer;
+    outline: none;    
+
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;    
+    margin-top: 1rem;
+}
+
+/*GRID LEFT ACCESOS*/
+.gpt3__mining-content .left .input-accesos{    
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items:center;
+    justify-content: space-between;    
+    margin-top:-1rem;
+    margin-right:-2rem;    
+}
+
+.gpt3__mining-content .left .input-accesos button img{
+    width: 40px;
+    margin:0.5rem 0 0.25rem
+}
+
+.gpt3__mining-content .left .input-accesos button{
+    flex: 0.6;
+    width: 90%;
+    background-color: transparent;
+    margin-top: 2rem;
+}
+
+.gpt3__mining-content .left .input-accesos button p{    
+    min-height: 20px;
+    font-family: var(--font-family);
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 28px;
+    background: #FF4820;
+    border: 2px solid #FF4820;
+    padding: 0 1rem;
+    color: #fff;
+    cursor: pointer;
+    outline: none;    
+
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;    
+    margin-top: 0rem;
+}
+
+/*GRID RIGHT */
+.gpt3__mining-content .right .img-container{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.gpt3__mining-content .right .img-container img{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+    .gpt3__mining-content {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0rem;
+        padding: 0rem;
     }
 
-.btn1 { 
-        width: 80%;
+    .gpt3__mining-content .left{        
+        padding: 0rem;
+    }
+
+    .gpt3__mining-content .left .input-accesos{        
+        margin-right:0rem;    
+    }
+
+    .gpt3__mining-content .right .img-container{
+        padding: 0rem;
+        margin-top: 2rem;
+    }
+    
+}
+
+@media screen and (max-width: 650px) {
+    .gpt3__mining-content .left h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .gpt3__mining-content input,
+    .gpt3__mining-content .left .input-container button {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .gpt3__mining-content .left h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .gpt3__mining-content input,
+    .gpt3__mining-content .left .input-container button {
+        font-size: 12px;
+        line-height: 16px;
     }
 }

@@ -1,78 +1,105 @@
-import React, { useState } from 'react'
-import { GiHornedHelm } from 'react-icons/gi'
-import { AiOutlinePlus, AiOutlineClose } from 'react-icons/ai'
+import {useState,useEffect} from 'react'
+import axios from 'axios'
+import {Data} from './components/Data'
+
+import './tasks.css';
 
 function Tasks() {
-  const [tasks, setTasks] = useState([])
-  const [input, setInput] = useState('')
 
-  // add tasks
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    const addTask = {
-      id: Math.floor(Math.random() * 1000),
-      text: input,
-      completed: false
+  // form states
+  const [name, setName]=useState('');
+  const [age, setAge]=useState('');
+  const [designation, setDesignation]=useState('');
+  const [salary, setSalary]=useState('');
+
+  // retrived data state
+  const [data, setData]=useState([]);
+
+  // submit event
+  const handleSubmit=(e)=>{
+    e.preventDefault();
+    // console.log(name, age, designation, salary);
+
+    // our object to pass
+    const data = {
+      name,age,designation,salary
     }
-    setTasks([...tasks, addTask])
-    setInput('')
+    axios.post('https://sheet.best/api/sheets/c1331914-8cf3-4d32-b40c-91b82e95f3b2',data).then(response=>{
+      // console.log(response);
+      setName('');
+      setAge('');
+      setDesignation('');
+      setSalary('');
+    })
   }
 
-  // delete tasks
-  const deleteTask = (id) => {
-    let filteredTasks = [...tasks].filter((tasks) => tasks.id !== id)
-    setTasks(filteredTasks)
-    console.log('task deleted')
+  // getting data function
+  const getData=()=>{
+    axios.get('https://sheet.best/api/sheets/c1331914-8cf3-4d32-b40c-91b82e95f3b2').then((response)=>{
+      setData(response.data);
+    })
   }
 
-  // toggle completed task
-  const toggleComplete = (id) => {
-    setTasks(
-      tasks.map(task => (
-        task.id === id ? { ...task, completed: !task.completed } : task
-      ))
-    )
-  }
-
-  const date = new Date()
-  // console.log(date)
-  const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
-  const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
-
+  // triggering function
+  useEffect(()=>{
+    getData();
+  },[data])
 
   return (
-    <div className='app'>
-      <div className="container">
-        <h1><GiHornedHelm /> Powerlist</h1>
-
-        <div className="date">
-          <p>{days[date.getDay()]}</p>
-          <p>{date.getDate()},</p>
-          <p>{months[date.getMonth()]}</p>
-          <p>{date.getFullYear()}</p>
-        </div>
-
-        <form onSubmit={handleSubmit}>
-          <div className="form-input">
-            <AiOutlinePlus className='icon' />
-            <input
-              value={input}
-              onChange={e => setInput(e.target.value)}
-              placeholder='Enter a task'
-              type="text" />
+    <div className="container">
+      <br></br>
+      <h1>Save Form Data in Google Sheets using React</h1>
+      <br></br>
+      <form autoComplete="off" className='form-group'
+      onSubmit={handleSubmit}>
+        <label>Name</label>
+        <input type='text' className='form-control' required
+          placeholder='Enter your name' onChange={(e)=>setName(e.target.value)}
+          value={name}
+        />
+        <br></br>
+        <label>Age</label>
+        <input type='text' className='form-control' required
+          placeholder='Enter your age' onChange={(e)=>setAge(e.target.value)}
+          value={age}
+        />
+        <br></br>
+        <label>Designation</label>
+        <input type='text' className='form-control' required
+          placeholder='Enter your designation'
+          onChange={(e)=>setDesignation(e.target.value)}
+          value={designation}
+        />
+        <br></br>
+        <label>Salary</label>
+        <input type='text' className='form-control' required
+          placeholder='Enter your salary'
+          onChange={(e)=>setSalary(e.target.value)}
+          value={salary}
+        />
+        <br></br>
+        <button type='submit' className='button'>Submit</button>        
+      </form>
+      <div className='view-data'>
+        {data.length<1&&<>No data to show</>}
+        {data.length>0&&(
+          <div className='table-responsive'>
+            <table className='table'>
+              <thead>
+                <tr>
+                  <th scope='col'>Index</th>
+                  <th scope='col'>Name</th>
+                  <th scope='col'>Age</th>
+                  <th scope='col'>Designation</th>
+                  <th scope='col'>Salary</th>
+                </tr>
+              </thead>
+              <tbody>
+                <Data data={data}/>
+              </tbody>
+            </table>
           </div>
-        </form>
-
-        <div>
-          {tasks.map(task => (
-            <div className={`task-row ${task.completed ? 'completed' : ''}`} key={task.id} onDoubleClick={() => toggleComplete(task.id)} >
-              <p>{task.text} </p>
-              <AiOutlineClose onClick={() => deleteTask(task.id)} className='icon' />
-            </div>
-          ))}
-        </div>
-
-          <p className='length'>{(tasks < 1) ? 'You have no tasks' : `Tasks: ${tasks.length}`}</p>
+        )}
       </div>
     </div>
   );
