@@ -1,7 +1,7 @@
 {
     "name": "mario_molina",
     "version": "0.1.0",
-    "homepage": "http://mariomolinaaraoz.github.io/mario_molina",
+    "homepage": "http://mariomolinaaraoz.com.ar",
     "private": true,
     "dependencies": {
         "@hookform/resolvers": "^2.8.8",
@@ -26,7 +26,7 @@
         "yup": "^0.32.11"
     },
     "scripts": {
-        "predeploy": "npm run build",
+        "predeploy": "npm run build && echo mariomolinaaraoz.com.ar > ./build/CNAME",
         "deploy": "gh-pages -d build",
         "start": "react-scripts start",
         "build": "react-scripts build",
