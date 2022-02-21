@@ -43,7 +43,7 @@ const Footer = () => {
                     <h5>Redes</h5>
                     <span className='bar'> </span>
                         <a href='https://github.com/mariomolinaaraoz'><FaGithub className='icon'/></a>
-                        <a href='https://www.instagram.com/mario_molina__/'><FaInstagram className='icon'/></a>
+                        <a href='https://www.instagram.com/mariomolinaaraoz/'><FaInstagram className='icon'/></a>
                         <a href='https://www.linkedin.com/in/mario-molina-araoz-4478365a/'><FaLinkedin className='icon'/></a>                        
                 </div>
             </div>
