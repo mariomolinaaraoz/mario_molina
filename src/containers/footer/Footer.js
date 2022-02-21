@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import {FaInstagram, FaGithub, FaLinkedin} from 'react-icons/fa'
+import {FaInstagram, FaGithub, FaLinkedin, FaEnvelope} from 'react-icons/fa'
 import logo from '../../assets/logo-black.svg';
 import './footer.css'
 
@@ -44,7 +44,8 @@ const Footer = () => {
                     <span className='bar'> </span>
                         <a href='https://github.com/mariomolinaaraoz'><FaGithub className='icon'/></a>
                         <a href='https://www.instagram.com/mariomolinaaraoz/'><FaInstagram className='icon'/></a>
-                        <a href='https://www.linkedin.com/in/mario-molina-araoz-4478365a/'><FaLinkedin className='icon'/></a>                        
+                        <a href='https://www.linkedin.com/in/mario-molina-araoz-4478365a/'><FaLinkedin className='icon'/></a>
+                        <a href='mailto:contacto@mariomolinaaraoz.com.ar'><FaEnvelope className='icon'/></a>
                 </div>
             </div>
             
