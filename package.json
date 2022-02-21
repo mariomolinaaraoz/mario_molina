@@ -1,7 +1,7 @@
 {
     "name": "mario_molina",
     "version": "0.1.0",
-    "homepage": "http://mariomolinaaraoz.com.ar",
+    "homepage": "https://mariomolinaaraoz.com.ar",
     "private": true,
     "dependencies": {
         "@hookform/resolvers": "^2.8.8",
