@@ -12,9 +12,9 @@ export default function App() {
             <Routes>
                 <Route path='/' element={<Home />}/>
                 <Route path="/mining" element={<Mineria />}/>
-                <Route path="/mario_molina/mining/coinsearch" element={<Coinsearch />}/>                
-                <Route path="/mario_molina/family" element={<Familia />}/>
-                <Route path="/mario_molina/tasks" element={<Tareas />}/>
+                <Route path="/mining/coinsearch" element={<Coinsearch />}/>                
+                <Route path="/family" element={<Familia />}/>
+                <Route path="/tasks" element={<Tareas />}/>
                 <Route path="*" element={<ErrorPage />}/>
             </Routes>
             <Footer/>

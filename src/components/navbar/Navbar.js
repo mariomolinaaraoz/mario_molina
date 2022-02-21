@@ -35,12 +35,12 @@ const Navbar = () => {
 					</Link>
 				</li>
 				<li className="nav-item">
-					<Link to="/mario_molina/family" className="nav-link" onClick={closeMenu}>
+					<Link to="/family" className="nav-link" onClick={closeMenu}>
 						Familia
 					</Link>
 				</li>
 				<li className="nav-item">
-					<Link to="/mario_molina/" className="nav-link" onClick={closeMenu}>
+					<Link to="/" className="nav-link" onClick={closeMenu}>
 						Contacto
 					</Link>
 				</li>
