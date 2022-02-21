@@ -24,6 +24,10 @@
     flex-direction: column;
 }
 
+.footer .col-1 {
+    align-items: center;
+}
+
 .footer .bar {
     width: 30px;
     border-bottom: 4px solid var(--color-footer);
