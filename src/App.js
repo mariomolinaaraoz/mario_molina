@@ -11,7 +11,7 @@ export default function App() {
             <Navbar/>
             <Routes>
                 <Route path='/' element={<Home />}/>
-                <Route path="/mario_molina/mining" element={<Mineria />}/>
+                <Route path="/mining" element={<Mineria />}/>
                 <Route path="/mario_molina/mining/coinsearch" element={<Coinsearch />}/>                
                 <Route path="/mario_molina/family" element={<Familia />}/>
                 <Route path="/mario_molina/tasks" element={<Tareas />}/>
