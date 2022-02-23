@@ -48,8 +48,12 @@ const Footer = () => {
                         <a href='mailto:contacto@mariomolinaaraoz.com.ar'><FaEnvelope className='icon'/></a>
                 </div>
             </div>
-            
+            <div className='creator'>
+                    <h6>Desarrollado por Mario Molina Araoz</h6>
+                    <h6>- Enero 2022 - </h6>
+            </div>            
         </div>
+        
     )
 }
 

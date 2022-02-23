@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from "react";
-import { db } from "../../firebase-config"
+import { db } from "../../config/firebase-config"
 import { collection, addDoc } from "firebase/firestore";
 import cv_pdf_file from '../../assets/CV - Mario Molina Autocad - Revit.pdf';
 import { saveAs } from "file-saver";

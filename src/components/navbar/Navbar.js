@@ -23,7 +23,7 @@ const Navbar = () => {
 			<div onClick={handleClick} className="nav-icon">
 				{open ? <FiX /> : <FiMenu />}
 			</div>
-			<ul className={open ? 'nav-links active' : 'nav-links'}>
+			<ul className={open ? 'nav-links active' : 'nav-links'}>				
 				<li className="nav-item">
 					<Link to="/" className="nav-link" onClick={closeMenu}>
 					Inicio
@@ -43,7 +43,7 @@ const Navbar = () => {
 					<Link to="/" className="nav-link" onClick={closeMenu}>
 						Contacto
 					</Link>
-				</li>
+				</li>				
 			</ul>
 		</nav>
 	);
