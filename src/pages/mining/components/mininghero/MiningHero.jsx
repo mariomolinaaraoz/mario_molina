@@ -37,15 +37,9 @@ const Mining_Hero = () => {
                         <a href="https://minexmr.com/dashboard?address=41xvpANcXWvFyauo7aTWSNHYgZxb2FkE2BGFDhwSTXMriua5sM535ZV3jgFkySGhKn5QUVHvSnqvg2uN1YEL6uS68AMwwoB" target="_blank" rel="noreferrer">
                             <button className='button'> <img src={Xmr_icon} alt=''/><p>Monero</p></button>
                         </a> 
-                        <a href="https://miningsolana.com/dashboard.php" target="_blank" rel="noreferrer">
-                            <button className='button'> <img src={Sol_icon} alt=''/><p>miningsolana</p></button>
-                        </a>
-                        <a href="https://mervex.biz/mining" target="_blank" rel="noreferrer">
-                            <button className='button'> <img src={Dash_icon} alt=''/><p>mervex</p></button>
-                        </a>
-                        <a href="https://sueldito.com/site/dashboard.php" target="_blank" rel="noreferrer">
-                            <button className='button'> <img src={Usdt_icon} alt=''/><p>sueldito</p></button>
-                        </a>
+                        <a href="https://unmineable.com/coins/RVN/address/RWEydceQwjzUNsToKRGyb9hFS97nHRa5jF" target="_blank" rel="noreferrer">
+                            <button className='button'> <img src={Rvn_icon} alt=''/><p>unMineable</p></button>
+                        </a>                        
                     </div>
                 </div>
                 {/* Right Side */}
