@@ -42,10 +42,10 @@ const Footer = () => {
                 <div className='col'>
                     <h5>Redes</h5>
                     <span className='bar'> </span>
-                        <a href='https://github.com/mariomolinaaraoz'><FaGithub className='icon'/></a>
-                        <a href='https://www.instagram.com/mariomolinaaraoz/'><FaInstagram className='icon'/></a>
-                        <a href='https://www.linkedin.com/in/mario-molina-araoz-4478365a/'><FaLinkedin className='icon'/></a>
-                        <a href='mailto:mariomolinaaraoz@gmail'><FaEnvelope className='icon'/></a>
+                        <a href='https://github.com/mariomolinaaraoz'><FaGithub className='icon'/>Github</a>
+                        <a href='https://www.instagram.com/mariomolinaaraoz/'><FaInstagram className='icon'/>Instagram</a>
+                        <a href='https://www.linkedin.com/in/mario-molina-araoz-4478365a/'><FaLinkedin className='icon'/>Linkedin</a>
+                        <a href='mailto:mariomolinaaraoz@gmail.com'><FaEnvelope className='icon'/>Email</a>
                 </div>
             </div>
             <div className='creator'>
