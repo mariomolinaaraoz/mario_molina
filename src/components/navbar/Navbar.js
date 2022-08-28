@@ -31,7 +31,7 @@ const Navbar = () => {
 				</li>
 				<li className="nav-item">
 					<Link to="/mining" className="nav-link" onClick={closeMenu}>
-						Mineria
+						Mineria1
 					</Link>
 				</li>
 				{/*<li className="nav-item">
