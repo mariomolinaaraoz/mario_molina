@@ -19,13 +19,13 @@ const Mining_Hero = () => {
                 {/* Left Side */}                   
                 
                     <div className='left'>
-                            <h1 className="gradient__text"> Invierte en cryptomonedas con tus recompensas</h1>
-                            <p>Chequea los mineros activos, revisa los ultimos pagos...</p>
+                            <h1 className="gradient__text"> Cryptomonedas</h1>
+                            <p>Mineros activos, ultimos pagos...</p>
 
-                            <div className='input-container'>                                                
+                            {/*<div className='input-container'>                                                
                                 <input type='email' placeholder='Ingresa tu email' />
                                 <button className='btn'>Aprender más</button>
-                            </div>
+                            </div>*/}
 
                             <div className='input-accesos'>
                                     <a href="https://www.binance.com/es-LA/my/wallet/account/overview" target="_blank" rel="noreferrer">

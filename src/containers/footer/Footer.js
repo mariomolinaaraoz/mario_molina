@@ -12,8 +12,8 @@ const Footer = () => {
                     <Link to="/mario_molina/" className="footer-logo">
           		        <img src={logo} alt="logo" />
 			        </Link>
-                </div>
-                <div className='col'>
+                </div>                
+                {/*<div className='col'>
                     <h5>Soporte</h5>
                     <span className='bar'></span>
                         <a href='/'>Contact Us</a>
@@ -38,14 +38,14 @@ const Footer = () => {
                         <a href='/'>Information</a>
                         <a href='/'>Legal</a>
                         <a href='/'>Privacy</a>
-                </div>
+                </div>*/}
                 <div className='col'>
                     <h5>Redes</h5>
                     <span className='bar'> </span>
                         <a href='https://github.com/mariomolinaaraoz'><FaGithub className='icon'/></a>
                         <a href='https://www.instagram.com/mariomolinaaraoz/'><FaInstagram className='icon'/></a>
                         <a href='https://www.linkedin.com/in/mario-molina-araoz-4478365a/'><FaLinkedin className='icon'/></a>
-                        <a href='mailto:contacto@mariomolinaaraoz.com.ar'><FaEnvelope className='icon'/></a>
+                        <a href='mailto:mariomolinaaraoz@gmail'><FaEnvelope className='icon'/></a>
                 </div>
             </div>
             <div className='creator'>

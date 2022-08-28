@@ -34,7 +34,7 @@ const Navbar = () => {
 						Mineria
 					</Link>
 				</li>
-				<li className="nav-item">
+				{/*<li className="nav-item">
 					<Link to="/family" className="nav-link" onClick={closeMenu}>
 						Familia
 					</Link>
@@ -43,7 +43,7 @@ const Navbar = () => {
 					<Link to="/" className="nav-link" onClick={closeMenu}>
 						Contacto
 					</Link>
-				</li>				
+				</li>*/}				
 			</ul>
 		</nav>
 	);
