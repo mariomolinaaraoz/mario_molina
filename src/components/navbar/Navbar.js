@@ -30,16 +30,16 @@ const Navbar = () => {
 					</Link>
 				</li>
 				<li className="nav-item">
+					<a href="https://www.mariomolinaaraoz.store/" target="_blank" className="nav-link" onClick={closeMenu}>
+						Portfolio
+					</a>
+				</li>
+				<li className="nav-item">
 					<Link to="/mining" className="nav-link" onClick={closeMenu}>
 						Mineria
 					</Link>
 				</li>
 				{/*<li className="nav-item">
-					<Link to="/family" className="nav-link" onClick={closeMenu}>
-						Familia
-					</Link>
-				</li>
-				<li className="nav-item">
 					<Link to="/" className="nav-link" onClick={closeMenu}>
 						Contacto
 					</Link>

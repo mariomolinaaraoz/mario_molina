@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import MetaTags from 'react-meta-tags';
 import { Navbar } from './components';
 import { Footer } from './containers';
 import { Home, Mineria, Coinsearch, Familia, Tareas, ErrorPage } from './pages';
